@@ -1,27 +1,48 @@
-# Module pattern and reflective learning
+# JavaScript module pattern
 
-## Setup
+## Instructions
 
-Clone this repo.
+### High level goal for the week
 
-Install the dependencies
+At a high level, this week is about building an effective process for researching, understanding and using new technologies?
 
-    $ npm install
+In this workshop, you'll practice one part of this: investigating how a design pattern solves a problem.  Specifically: investigating how the module pattern encapsulates (and shares) code.
 
-## Run the tests
+### Learning objectives
 
-    $ npm test
+1. Describe the module pattern as a way to encapsulate and share code.
+2. Explain how the module pattern makes some code available and hides other code.
+3. Use the module pattern in your code.
 
-## Run the app
+### Investigate how the module pattern works (30 mins)
 
-    $ npm start
+* Pair up.
+
+* Clone this repo.
+
+* Run `npm install` to install the dependencies.
+
+* Run `npm test` to run the tests.
+
+* Run `npm start` to run the app.  View it at the URL displayed in your console.
+
+* Investigate the code in this repo to see how it works.  Use `console.log` to inspect the state and follow the flow.  Research the pattern to understand what problems it solves, and what trade-offs it makes.  (See resources below for a starting point.)
+
+* Try and answer the questions below.
+
+### Plenary (15 mins)
+
+We'll come back together for a short plenary to discuss our understanding of the module pattern, and the techniques we used to understand the code.
 
 ## Questions
 
-* How does the function that wraps a model keep `QUESTION_MARK_COUNT` private? Why is this useful?
+1. How does the function that wraps the question module keep `QUESTION_MARK_COUNT` private? Why is this useful?
 
-* How does the pattern used `question` and `exclaim` differ from the pattern used by `interrobangInjectOnLoad` and `interrobangInjectOnRun`? Why are different patterns used?
+2. How does the pattern used in the `question` and `exclaim` modules differ from the pattern used in the `interrobang` module? Why are different patterns used?
 
-* Can you predict and confirm the value of `this` in all the parts of each module?
+3. Can you predict and confirm the value of `this` in all the parts of each module?
 
-* What are the pros and cons of the module pattern used by `interrobangInjectOnRun` and the module pattern used by `interrobangInjectOnLoad`?
+## Resources
+
+* [Immediately Invoked Function Expression (IIFE)](http://stackoverflow.com/questions/8228281/what-is-the-function-construct-in-javascript)
+* :pill: [JavaScript module pattern](https://github.com/makersacademy/course/blob/master/pills/javascript_module_pattern.md)
