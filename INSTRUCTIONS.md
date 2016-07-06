@@ -6,6 +6,8 @@
 
 * Do "thumbs" on the [learning objectives](README.md#learning-objectives).
 
+* Run the tests.  Run the app and show the output.
+
 * Spend five minutes talking through the high level ideas of the module pattern, using the code in this repo for examples.
 
 * Do "thumbs" on the learning objectives.
