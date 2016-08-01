@@ -4,15 +4,15 @@
 
 ### High level goal for the week
 
-At a high level, this week is about building an effective process for researching, understanding and using new technologies?
+At a high level, this week is about learning to write a frontend, single page app using only pure JavaScript.
 
-In this workshop, you'll practice one part of this: investigating how a design pattern solves a problem.  Specifically: investigating how the module pattern encapsulates (and shares) code.
+In this workshop, you'll practice one part of this: encapsulating and sharing your modules in an idiomatic way.
 
 ### Learning objectives
 
 1. Describe the module pattern as a way to encapsulate and share code.
 2. Explain how the module pattern makes some code available and hides other code.
-3. Use the module pattern in your code.
+3. Write code using the module pattern.
 
 ### Investigate how the module pattern works (30 mins)
 
