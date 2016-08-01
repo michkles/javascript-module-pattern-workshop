@@ -26,13 +26,15 @@ In this workshop, you'll practice one part of this: encapsulating and sharing yo
 
 * Run `npm start` to run the app.  View it at the URL displayed in your console.
 
-* Investigate the code in this repo to see how it works.  Use `console.log` to inspect the state and follow the flow.  Research the pattern to understand what problems it solves, and what trade-offs it makes.  (See resources below for a starting point.)
+* TDD a `smiley.js` module.  It should have a function that returns a random smiley like `:)` or `:D`.
+
+* Rename `interrobang.js` to `interrobangsmiley.js`.  Update the code to use your `smiley.js` function to include a smiley in its output.  For example: `hello?! :)`.
 
 * Try and answer the questions below.
 
 ### Plenary (15 mins)
 
-We'll come back together for a short plenary to discuss our understanding of the module pattern, and the techniques we used to understand the code.
+We'll come back together for a short plenary.  We'll discuss problems we had writing code that uses the module pattern. And we'll answer the questions below.
 
 ## Questions
 
