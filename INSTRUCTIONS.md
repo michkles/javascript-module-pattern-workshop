@@ -16,7 +16,7 @@
 
 ## Main (30 minutes)
 
-* Ask the students to implement `interrobangsmiley()` (see [README.md](README.md#investigate-how-the-module-pattern-works).
+* Ask the students to implement `interrobangsmiley()` (see [README.md](README.md#implement-the-module-pattern-30-mins)).
 
 * Ask them to try and answer the [questions](README.md#questions) in the README.
 

@@ -14,7 +14,7 @@ In this workshop, you'll practice one part of this: encapsulating and sharing yo
 2. Explain how the module pattern makes some code available and hides other code.
 3. Write code using the module pattern.
 
-### Investigate how the module pattern works (30 mins)
+### Implement the module pattern (30 mins)
 
 * Pair up.
 
